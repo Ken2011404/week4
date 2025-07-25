@@ -59,9 +59,11 @@
     justify-content: center;
     align-items: center;
   }
-  .h3:hover,
-  .h3:focus {
-    color: $primary-300;
+  &:hover,
+  &:focus {
+    .h3 {
+      color: $primary-300;
+    }
   }
 }
 .section-style {
