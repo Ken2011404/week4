@@ -1,0 +1,87 @@
+.main-img img {
+  width: 369px;
+}
+.color-btn {
+  color: $neutral-600;
+  background-color: $neutral-0;
+  border: none;
+  padding: 0 0;
+  cursor: pointer;
+  font: inherit;
+  &:focus {
+    background-color: #212529;
+    color: $neutral-0;
+  }
+  img {
+    width: 64px;
+    height: auto;
+  }
+}
+
+.gap-8 {
+  gap: 8px;
+}
+.size .active,
+.size :hover,
+.size .btn:hover {
+  border-color: $neutral-900;
+}
+.only-left {
+  color: #d74f4f;
+}
+
+.btn {
+  &-size {
+    border: 1px solid $neutral-300;
+    width: 160px;
+  }
+  &-love {
+    border: 1px solid $neutral-900;
+  }
+  &-love:hover,
+  &-try {
+    background-color: $neutral-900;
+    color: $neutral-0;
+  }
+}
+.product-action {
+  display: flex;
+  gap: 8px;
+  .btn {
+    width: 50%;
+  }
+}
+
+.border-bottom-1 {
+  border-bottom: 1px solid $neutral-300;
+}
+@media (max-width: 767px) {
+  .main-img img {
+    width: 100%;
+  }
+  .product-action .btn {
+    width: auto;
+  }
+  .btn-md-try {
+    padding: 12px 83.5px;
+  }
+  .btn-md-love {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 12px;
+  }
+  .column-md-gap-16 {
+    column-gap: 16px;
+  }
+  .gap-md-12 {
+    gap: 12px;
+  }
+  .overflow-md-auto {
+    overflow-x: auto;
+  }
+  .maylike img {
+    min-width: 300px;
+  }
+}

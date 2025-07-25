@@ -1,0 +1,11 @@
+.banner {
+  background-color: $primary-200;
+  &-btn {
+    font: inherit;
+    color: $neutral-0;
+    background-color: $neutral-900;
+  }
+  &-top {
+    border-top: 1px solid $neutral-300;
+  }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>section-cart</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <main>
+      <section class="ptb-64 ptb-md-24">
+        <div class="container">
+          <div class="row j-center">
+            <div class="col-6 col-md-4">
+              <div class="d-flex j-center a-center mb-32 mb-md-24">
+                <i class="bi bi-check-lg mr-16 mr-md-8"></i>
+                <h3 class="h3 ">我的收藏</h3>
+              </div>
+              <div class="opening-hours label-md p-16 d-flex a-center mb-32 mb-md-24 ">
+                <i class="bi bi-truck mr-12"></i>
+                <div class="d-md-flex flex-direction-md-column "><span>門市營業時間：</span><span>週一至週五 10:00 - 22:00</span></div>
+              </div>   
+              <ul>
+                <li class="cart-card d-flex pb-32 mb-32 mb-md-24 border-bottom ">
+                  <a href="../pages/product.html" class="">
+                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week2/image.png" alt="product-1" class="card-img mr-16">                  
+                  </a>
+                  <div class="d-block w-100">
+                    <h5 class="h5 neutral-900 mb-8">PLATFORM 404</h5>
+                    <p class="mb-8"><span class="paragraph-md neutral-600 mr-12 paragraph-sm-md">尺寸</span><span class="label-md label-sm-md">38</span></p>
+                    <p class="mb-8"><span class="paragraph-md neutral-600 mr-12 paragraph-sm-md">顏色</span><span class="label-md label-sm-md">Navy</span> </p>
+                    <p class="h6 text-end text-md-start">NT$2,600</p>
+                  </div>
+                  
+                </li>
+                <li class="cart-card d-flex pb-32 mb-32 mb-md-24 border-bottom ">
+                  <a href="../pages/product.html" class="">
+                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week2/product-4.png" alt="product-5" class="card-img mr-16">                  
+                  </a>
+                  <div class="d-block w-100">
+                    <h5 class="h5 neutral-900 mb-8">BOOMLOK</h5>
+                    <p class="mb-8"><span class="paragraph-md neutral-600 mr-12 paragraph-sm-md">尺寸</span><span class="label-md label-sm-md">38</span></p>
+                    <p class="mb-8"><span class="paragraph-md neutral-600 mr-12 paragraph-sm-md">顏色</span><span class="label-md label-sm-md">White</span> </p>
+                    <p class="h6 text-end text-md-start">NT$3,200</p>
+                  </div>
+                  
+                </li>
+                <li class="cart-card d-flex pb-32 mb-32 mb-md-24 border-bottom ">
+                  <a href="../pages/product.html" class="">
+                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week2/product-3.png" alt="product-4" class="card-img mr-16">                  
+                  </a>
+                  <div class="d-block w-100">
+                    <h5 class="h5 neutral-900 mb-8">MELTY KISS</h5>
+                    <p class="mb-8"><span class="paragraph-md neutral-600 mr-12 paragraph-sm-md">尺寸</span><span class="label-md label-sm-md">38</span></p>
+                    <p class="mb-8"><span class="paragraph-md neutral-600 mr-12 paragraph-sm-md">顏色</span><span class="label-md label-sm-md">Violet</span> </p>
+                    <p class="h6 text-end text-md-start">NT$4,000</p>
+                  </div>
+                  
+                </li>
+              </ul>
+              <div class="d-flex j-center">
+                <button type="button" class="btn btn-try">立即預約門市試穿</button>
+              </div>
+              
+        </div>
+      </section>
+    </main>
+    <%- include('./layout/bottom-banner'); -%>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
