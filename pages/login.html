@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <main>
+      <div class="login-md-img"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-5 d-md-none">
+            <div class="login-img"></div>
+          </div>
+          <div class="col-7 col-md-4">
+            <div class="login-bg ptb-120 plr-80 ptb-md-32 plr-md-0 login-md-bg">
+              <h3 class="h3 text-center mb-32 mb-md-24">歡迎！</h3>
+              <div class="d-flex mb-32 mb-md-24">
+                <a
+                  href="./login.html"
+                  class="black-border-bottom h6 w-50 ptb-12 text-center"
+                  >登入</a
+                >
+                <a
+                  href="./register.html"
+                  class="gray-border-bottom h6 neutral-600 w-50 ptb-12 text-center"
+                  >註冊</a
+                >
+              </div>
+              <ul class="login-choose">
+                <li class="p-12 mb-8">
+                  <a href="#" class="d-flex a-center"
+                    ><img
+                      src="../assets/images/facebook.svg"
+                      alt="facebook"
+                      class="pr-12"
+                    />Facebook 登入</a
+                  >
+                </li>
+                <li class="p-12 mb-8">
+                  <a href="#" class="d-flex a-center"
+                    ><img
+                      src="../assets/images/apple.svg"
+                      alt="facebook"
+                      class="pr-12"
+                    />Apple 登入</a
+                  >
+                </li>
+                <li class="p-12 mb-8">
+                  <a href="#" class="d-flex a-center"
+                    ><img
+                      src="../assets/images/google.svg"
+                      alt="facebook"
+                      class="pr-12"
+                    />Google 登入</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

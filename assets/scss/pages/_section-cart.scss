@@ -1,0 +1,32 @@
+.opening-hours {
+  color: $primary-400;
+  background-color: $primary-100;
+}
+.bi-check-lg {
+  text-align: center;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: $primary-300;
+  color: $primary-500;
+}
+.bi-truck {
+  font-size: 24px;
+}
+.opening-hours {
+  border-radius: 4px;
+}
+.cart-card {
+  img {
+    max-width: 120px;
+    height: auto;
+  }
+}
+@include media {
+  .bi-check-lg {
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+  }
+}

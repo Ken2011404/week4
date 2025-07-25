@@ -1,0 +1,64 @@
+/* 基本設定 */
+.neutral-0 {
+  color: $neutral-0;
+}
+.primary-400 {
+  color: $primary-400;
+}
+.primary-300 {
+  color: $primary-300;
+}
+.neutral-500 {
+  color: $neutral-500;
+}
+.neutral-600 {
+  color: $neutral-600;
+}
+.neutral-900 {
+  color: $neutral-900;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  color: $neutral-900;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  color: $neutral-900;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+.card {
+  &-img {
+    &:hover,
+    &:focus {
+      opacity: 0.7;
+    }
+  }
+  &-product {
+    &:hover,
+    &:focus {
+      opacity: 0.8;
+    }
+  }
+}
+/* border */
+.border {
+  &-bottom {
+    border-bottom: 1px solid $neutral-300;
+  }
+  &-left {
+    border-left: 3px solid $neutral-300;
+  }
+}
