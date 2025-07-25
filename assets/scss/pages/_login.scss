@@ -1,5 +1,5 @@
 .login-img {
-  background-image: url("./assets/images/login.png");
+  background-image: url("../images/login.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,7 +7,7 @@
   border-radius: 12px;
 }
 .login-bg {
-  background-image: url("./assets/images/login-bg.png");
+  background-image: url("../images/login-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@
 }
 @include media {
   .login-md-img {
-    background-image: url("./assets/images/login-sm.png");
+    background-image: url("../images/login-sm.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
