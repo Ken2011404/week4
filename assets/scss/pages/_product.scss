@@ -1,5 +1,18 @@
 .main-img img {
-  width: 369px;
+  width: calc(50% - 4px);
+}
+.product {
+  &-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+  &-col {
+    width: calc(100% / 12 * 6);
+    padding-right: 4px;
+    padding-left: 4px;
+  }
 }
 .color-btn {
   color: $neutral-600;
