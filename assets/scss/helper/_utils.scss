@@ -241,24 +241,18 @@
 
 .label-md {
   font-weight: 500;
-  font-style: medium;
 }
 .label-sm {
   font-size: 14px;
   font-weight: 500;
-  font-style: medium;
 }
-.paragraph-md {
-  font-style: regular;
-}
+
 .paragraph-sm {
   font-size: 14px;
-  font-style: regular;
 }
 .paragraph-lg {
   font-weight: 400;
   font-size: 20px;
-  font-style: regular;
 }
 @include media {
   .text-md-start {
@@ -287,7 +281,6 @@
   }
   .paragraph-sm-md {
     font-size: 14px;
-    font-style: regular;
   }
 }
 @media (max-width: 576px) {
@@ -388,6 +381,9 @@
 }
 .p-16 {
   padding: 16px;
+}
+.p-32 {
+  padding: 32px;
 }
 @include media {
   .plr-md-8 {
