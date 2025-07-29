@@ -87,7 +87,7 @@
 }
 @include media {
   .title-banner {
-    background-image: url(../assets/images/banner-sm.png);
+    background-image: url(../images/banner-sm.png);
     padding: 155px 24px;
   }
   .nav-md {
@@ -110,7 +110,7 @@
     overflow-x: auto;
   }
   .mid-banner {
-    background-image: url(../assets/images/banner-co-branded-sm.png);
+    background-image: url(./assets/images/banner-co-branded-sm.png);
     padding: 64px 0;
     overflow: hidden;
     .star-img {
